@@ -1,3 +1,7 @@
+//https://github.com/Robin-Milford/assignment
+
+
+
 //First problem: Kilometer to meter convert
 
 function KilometerToMeter(kilo) {
@@ -53,8 +57,9 @@ console.log('Total budget is :', budget);
 
 function hotelCost(days) {
 
-
-    if (days <= 10) {
+    if (days <= 0) {
+        console.log('Please enter a valid number ');
+    } else if (days <= 10) {
         var amount = days * 100;
         return amount;
 
@@ -70,7 +75,7 @@ function hotelCost(days) {
 
 }
 
-var result = hotelCost(22);
+var result = hotelCost(0);
 console.log("Hotel Cost: ", result);
 
 
