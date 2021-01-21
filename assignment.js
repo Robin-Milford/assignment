@@ -75,7 +75,7 @@ function hotelCost(days) {
 
 }
 
-var result = hotelCost(0);
+var result = hotelCost(71);
 console.log("Hotel Cost: ", result);
 
 
